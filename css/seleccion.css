@@ -1,0 +1,66 @@
+*{
+    /* Eliminar predeterminados */
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    /* Estilos de título h1 */
+    text-align: center;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.fondoo {
+    
+    background-color: rgb(23, 185, 210);
+}
+.button {
+    list-style: none;
+    padding: 0;
+}
+.button-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.regresar{
+    float: right;
+    padding: 10px;
+    background: #06ecfd;
+	color: #010000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.btn {
+    padding: 10px;
+    background: #023c5f;
+	color: #fefefe;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.description {
+    text-align: center;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border: right;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.wave{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 112%;
+	z-index: -1;
+}

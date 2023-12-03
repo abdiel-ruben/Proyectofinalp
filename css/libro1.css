@@ -1,0 +1,61 @@
+*{
+    /* Eliminar predeterminados */
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    /* Estilos de título h1 */
+    text-align: center;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+.pdfview {
+    /* Para realizar en Centrado */
+    margin: auto;
+    display: block;
+    /* Para el Tamaño del documento */
+    width: 850px;
+    height: 100vh;
+    /* Mejorar aspecto */
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.wave{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 111%;
+	z-index: -1;
+}
+.btn{
+    float: right;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	width: 8%;
+	height: 40px;
+	border-radius: 10px;
+	outline: right;
+	border: right;
+	background: #023c5f;
+	background-size: 600%;
+	color: #fefefe;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.regresar{
+    padding: 10px;
+    background: #023c5f;
+	color: #fefefe;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 530px;
+    padding-right: 15px;
+}
